@@ -11,18 +11,48 @@
         <div class="hero">
             <div class="container">
             <div class="form-box">
-                <form id="login" class="input-group">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                    <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                </div>
+                <form id="register" class="input-group">
                     <input type="text" class="input-field" placeholder=" Guardian's Email id" required>
                     <input type="text" class="input-field" placeholder=" Guardian's phone number" required>
                     <input type="text" class="input-field" placeholder="Student's name" required>
+                    <input type="text" class="input-field" placeholder="Gender" required>
+                    <input type="text" class="input-field" placeholder="Age" required>
                     <input type="text" class="input-field" placeholder="User Name" required>
                     <input type="text" class="input-field" placeholder="Enter Password" required>
-                    <input type="checkbox" class="checkbox"><span>Remember Password</span>
-                    <button class="submit-btn">Next</button></a>
+                    <input type="checkbox" class="checkbox"><span>I agree with the terms and conditions</span>
+                    <button class="submit-btn">Register</button></a>
+                </form>
+                <form id="login" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="email" class="input-field" placeholder="Email Id" required>
+                    <input type="text" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="checkbox"><span>Remembder password</span>
+                    <button type="submit" class="submit-btn">Login</button>
                 </form>
             </div>
         </div>
         </div>
-   
+        <script>
+            var x = document.getElementById("login");
+            var y = document.getElementById("register");
+            var z = document.getElementById("btn");
+        
+            function register(){
+                x.style.left = "-400px";
+                y.style.left = "50px";
+                z.style.left = "110px";
+            }    
+            function login(){
+                x.style.left = "50px";
+                y.style.left = "450px";
+                z.style.left = "0px";
+            }    
+            </script>
+           
     </body>
     </html>
