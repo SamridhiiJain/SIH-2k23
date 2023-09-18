@@ -1,0 +1,109 @@
+/* Google Font Import Link */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  transition: all 0.4s ease;
+}
+
+nav.sticky{
+  padding: 15px 20px;
+  background:#FFFDD0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav .nav-content{
+  height: 100%;
+  max-width: 100%;
+    margin:0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo a{
+  font-weight: 500;
+  font-size: 12px;
+  color:#FFFDD0;
+}
+nav.sticky .logo a{
+  color: #fff;
+}
+.nav-content .nav-links{
+  display: flex;
+}
+.nav-content .nav-links li{
+  list-style: none;
+  margin: 0;
+}
+ .nav-links li a{
+  text-decoration: none;
+  color: #0E2431;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 20px;
+  transition: all 0.3s ease;
+}
+ .nav-links li a:hover{
+   color: brown;
+ }
+ nav.sticky .nav-links li a{
+   transition: all 0.4s ease;
+}
+ nav.sticky .nav-links li a:hover{
+  color: brown;
+}
+
+.waste{
+  height:14.6vh;
+  width: 100%;
+  background-color:white;
+  font-family: 'Ubuntu', sans-serif;
+}
+body{
+  background-color:white;
+}
+h2{
+  font-size: 30px;
+  margin-bottom: 6px;
+  color:brown;
+}
+.text{
+  text-align: justify;
+  padding: 20px 40px;
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+}
+.section{
+ 
+}
+h2{
+  margin:20px;
+  font-size: 40px;
+}
+h3{
+  color:brown;
+  text-align: center;
+  background-color:#FFFDD0;
+}
+.section{
+display:flex;
+margin:10px;
+}
+
+a img{
+  width:480px;
+  margin:10px;
+  border-radius:20px;
+}
+
+.com{
+  font-size:30px;
+}
