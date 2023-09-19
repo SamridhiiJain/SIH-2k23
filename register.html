@@ -2,20 +2,34 @@
     <head>
         <title>login and regitration form </title>
         <link rel="stylesheet" href="register.css">
+
     </head>
     <body>
-
-        <div class="background-video">
+        <!-- <div class="background-IMG">
             <video src="InShot_20230915_225935158.mp4" loop autoplay muted ></video>
-        </div>
+        </div> -->
         <div class="hero">
             <div class="container">
             <div class="form-box">
                 <div class="button-box">
                     <div id="btn"></div>
+                 
+                    <button type="button" class="toggle-btn" onclick="login()">Log In</button>
                     <button type="button" class="toggle-btn" onclick="register()">Register</button>
-                    <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                   
                 </div>
+                <!-- <div class="Social-icons">
+                    <img src="fb.png">
+                    <img src="tw.png">
+                    <img src="gp.png">
+                </div> -->
+             
+                <form id="login" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="text" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="checkbox"><span>Remember Password</span>
+                    <button type="submit" class="submit-btn">Log In</button>
+                </form>
                 <form id="register" class="input-group">
                     <input type="text" class="input-field" placeholder=" Guardian's Email id" required>
                     <input type="text" class="input-field" placeholder=" Guardian's phone number" required>
@@ -24,35 +38,28 @@
                     <input type="text" class="input-field" placeholder="Age" required>
                     <input type="text" class="input-field" placeholder="User Name" required>
                     <input type="text" class="input-field" placeholder="Enter Password" required>
-                    <input type="checkbox" class="checkbox"><span>I agree with the terms and conditions</span>
-                    <button class="submit-btn">Register</button></a>
-                </form>
-                <form id="login" class="input-group">
-                    <input type="text" class="input-field" placeholder="User Id" required>
-                    <input type="email" class="input-field" placeholder="Email Id" required>
-                    <input type="text" class="input-field" placeholder="Enter Password" required>
-                    <input type="checkbox" class="checkbox"><span>Remembder password</span>
-                    <button type="submit" class="submit-btn">Login</button>
+                    <input type="checkbox" class="checkbox"><span>I agree to the terms and conditions</span>
+                    <button type="submit" class="submit-btn">Register</button>
                 </form>
             </div>
         </div>
         </div>
-        <script>
-            var x = document.getElementById("login");
-            var y = document.getElementById("register");
-            var z = document.getElementById("btn");
-        
-            function register(){
-                x.style.left = "-400px";
-                y.style.left = "50px";
-                z.style.left = "110px";
-            }    
-            function login(){
-                x.style.left = "50px";
-                y.style.left = "450px";
-                z.style.left = "0px";
-            }    
-            </script>
-           
+    <script>
+    var x = document.getElementById("login");
+    var y = document.getElementById("register");
+    var z = document.getElementById("btn");
+
+    function register(){
+        x.style.left = "-400px";
+        y.style.left = "50px";
+        z.style.left = "110px";
+    }    
+    function login(){
+        x.style.left = "50px";
+        y.style.left = "450px";
+        z.style.left = "0px";
+    }    
+    </script>
+    <script src="scripts.js"></script>
     </body>
     </html>

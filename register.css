@@ -6,7 +6,8 @@
 .hero{
     height: 100%;
     width: 100%;
-   background: url(InShot_20230915_225935158.mp4);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.7891737891737891) 100%);
     background-size: cover;
     background-position: center;
     background-size: cover;
@@ -95,7 +96,7 @@ span{
     left: 450px;
 }
 
-.background-video {
+/* .background-video {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -108,12 +109,12 @@ span{
     background: url("InShot_20230915_225935158.mp4");
     background-size: cover;
     transition: 1s opacity;
-  }
+  } */
 
-  @media (max-width: 750px) {
+  /* @media (max-width: 750px) {
     #background-video { display: none; }
     body {
       background: url("InShot_20230915_225935158.mp4") no-repeat;
       background-size: cover;
     }
-}
+} */
