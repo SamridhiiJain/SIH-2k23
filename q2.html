@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./quizzglobal.css" />
+    <link rel="stylesheet" href="./q2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Love Ya Like A Sister:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="q2">
+      <button class="option-41"></button>
+      <button class="option-21" id="option2"></button>
+      <button class="option11"></button>
+      <div class="question1"></div>
+      <button class="option31"></button>
+      <button class="next2"></button>
+      <button class="previous1" id="previous"></button>
+      <div class="who-can-you">
+        Who can you trust to tell when you need help?
+      </div>
+      <div class="a-stranger">A stranger</div>
+      <div class="parents1">Parents</div>
+      <div><a href="q3.html"><button class="next3" id = "nextText">next</button></a></div>
+      <div><a href="quizz.html"><button class="prev1" id = "prevText">prev</button></a></div>
+      <div class="no-one">No one</div>
+      <div class="your-teddy-bear">your teddy bear</div>
+    </div>
+
+    <script>
+      var option2 = document.getElementById("option2");
+      if (option2) {
+        option2.addEventListener("click", function (e) {
+          window.location.href = "./q3.html";
+        });
+      }
+      
+      var previous = document.getElementById("previous");
+      if (previous) {
+        previous.addEventListener("click", function (e) {
+          window.location.href = "./q1.html";
+        });
+      }
+      
+      var nextText = document.getElementById("nextText");
+      if (nextText) {
+        nextText.addEventListener("click", function (e) {
+          window.location.href = "./q3.html";
+        });
+      }
+
+     
+      var prevText = document.getElementById("prevText");
+      if (prevText) {
+        prevText.addEventListener("click", function (e) {
+          window.location.href = "./quizz.html";
+        });
+      }
+ 
+      </script>
+  </body>
+</html>

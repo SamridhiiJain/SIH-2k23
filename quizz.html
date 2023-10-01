@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./quizzglobal.css" />
+    <link rel="stylesheet" href="./quizz.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Love Ya Like A Sister:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="q1">
+      <button class="option-4"></button>
+      <button class="option-2"></button>
+      <button class="option1"></button>
+      <div class="question"></div>
+      <button class="option3" id="option3"></button>
+      <button class="next" id="next"></button>
+      <button class="previous"></button>
+      <div class="what-must-you">
+        What must you do if you experience bad touch?
+      </div>
+      <div class="keep-quiet">Keep Quiet</div>
+      <div class="cry">Cry</div>
+
+      <div><a href="q2.html"><button class="next1" id = "nextText">next</button></a></div>
+      <div><a href="quizz.html"><button class="prev" id = "prevText">prev</button></a></div>
+      
+      <div class="tell-your-dog">Tell your dog</div>
+      <div class="tell-your-parents-container">
+        <span class="tell-your-parents-container1">
+          <p class="tell-your">Tell your</p>
+          <p class="tell-your">parents</p>
+        </span>
+      </div>
+    </div>
+
+    <script>
+      var option3 = document.getElementById("option3");
+      if (option3) {
+        option3.addEventListener("click", function (e) {
+          window.location.href = "./q2.html";
+        });
+      }
+      
+      var next = document.getElementById("next");
+      if (next) {
+        next.addEventListener("click", function (e) {
+          window.location.href = "./q2.html";
+        });
+      }
+      </script>
+  </body>
+</html>

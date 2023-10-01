@@ -1,0 +1,138 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Fuggles&family=Merriweather:wght@300&family=Pacifico&display=swap');
+
+.option-22,
+.option-42,
+.option12 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-salmon);
+  position: absolute;
+  top: 590px;
+  left: 872px;
+  border-radius: var(--br-41xl);
+  width: 363px;
+  height: 205px;
+}
+.option-22,
+.option12 {
+  top: 307px;
+}
+.option12 {
+  left: 235px;
+}
+.next4,
+.option32,
+.previous2,
+.question2 {
+  position: absolute;
+  top: 100px;
+  left: 152px;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-yellowgreen);
+  width: 1162px;
+  height: 160px;
+}
+.next4,
+.option32,
+.previous2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-salmon);
+  top: 590px;
+  left: 235px;
+  width: 363px;
+  height: 205px;
+}
+.next4,
+.previous2 {
+  background-color: var(--color-green);
+  top: 873px;
+  left: 1209px;
+  border-radius: var(--br-20xl);
+  width: 178px;
+  height: 78px;
+}
+.previous2 {
+  left: 53px;
+}
+.is-it-okay,
+.no,
+.yes {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 98px;
+}
+.is-it-okay {
+  top: 131px;
+  left: 202px;
+  font-size: 45px;
+  color: var(--color-black);
+  width: 1062px;
+}
+.no,
+.yes {
+  top: 360px;
+  left: 260px;
+  width: 319px;
+}
+.no {
+  left: 890px;
+}
+.next5 {
+  top: 863px;
+  left: 1139px;
+  height: 88px;
+  font-size: 45px;
+  background-color: green;
+  border-radius: 40px;
+  color: white;
+  font-family: 'Pacifico', cursive;
+}
+.i-dont-know,
+.maybe,
+.next5,
+.prev2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 319px;
+  border-radius: 40px;
+}
+.prev2 {
+  top: 863px;
+  left: -21px;
+  height: 88px;
+  cursor: pointer;
+  background-color: green;
+  border-radius: 40px;
+  color:white;
+  font-size: 45px;
+  font-family: 'Pacifico', cursive;
+}
+.i-dont-know,
+.maybe {
+  top: 644px;
+  left: 890px;
+  height: 98px;
+}
+.i-dont-know {
+  top: 643px;
+  left: 257px;
+}
+.q4 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-41xl);
+  color: var(--color-white);
+  font-family: var(--font-love-ya-like-a-sister);
+}

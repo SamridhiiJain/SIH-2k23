@@ -1,0 +1,145 @@
+.option-23,
+.option-43,
+.option13 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-salmon);
+  position: absolute;
+  top: 590px;
+  left: 872px;
+  border-radius: var(--br-41xl);
+  width: 363px;
+  height: 205px;
+}
+.option-23,
+.option13 {
+  top: 307px;
+}
+.option13 {
+  left: 235px;
+}
+.next6,
+.option33,
+.previous3,
+.question3 {
+  position: absolute;
+  top: 100px;
+  left: 152px;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-yellowgreen);
+  width: 1162px;
+  height: 160px;
+}
+.next6,
+.option33,
+.previous3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-salmon);
+  top: 590px;
+  left: 235px;
+  width: 363px;
+  height: 205px;
+}
+.next6,
+.previous3 {
+  background-color: var(--color-green);
+  top: 873px;
+  left: 1209px;
+  border-radius: var(--br-20xl);
+  width: 178px;
+  height: 78px;
+}
+.previous3 {
+  left: 53px;
+ 
+}
+.which-of-the {
+  position: absolute;
+  top: 131px;
+  left: 202px;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1062px;
+  height: 98px;
+}
+.a-high-five {
+  top: 360px;
+  left: 260px;
+  height: 98px;
+}
+.a-handshake,
+.a-high-five,
+.a-hug,
+.next7,
+.prev3,
+.touching-your-private {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 319px;
+}
+.a-hug {
+  top: 360px;
+  left: 890px;
+  height: 98px;
+}
+.a-handshake,
+.next7,
+.prev3,
+.touching-your-private {
+  top: 863px;
+  height: 88px;
+}
+.next7 {
+  left: 1139px;
+  cursor: pointer;
+  background-color: green;
+  border-radius: 40px;
+  color:white;
+  font-size: 45px;
+  font-family: 'Pacifico', cursive;
+}
+.a-handshake,
+.prev3,
+.touching-your-private {
+  left: -21px;
+}
+.a-handshake,
+.touching-your-private {
+  top: 646px;
+  left: 881px;
+  font-size: 50px;
+  width: 345px;
+  height: 98px;
+}
+.a-handshake {
+  top: 643px;
+  left: 257px;
+  font-size: 55px;
+  width: 319px;
+}
+.q3 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-41xl);
+  color: var(--color-white);
+  font-family: var(--font-love-ya-like-a-sister);
+}
+.prev3{
+  background-color: green;
+  border-radius: 40px;
+  color:white;
+  font-size: 45px;
+  font-family: 'Pacifico', cursive;
+}

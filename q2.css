@@ -1,0 +1,140 @@
+.option-21,
+.option-41,
+.option11 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-salmon);
+  position: absolute;
+  top: 590px;
+  left: 872px;
+  border-radius: var(--br-41xl);
+  width: 363px;
+  height: 205px;
+}
+.option-21,
+.option11 {
+  top: 307px;
+}
+.option11 {
+  left: 235px;
+}
+.next2,
+.option31,
+.previous1,
+.question1 {
+  position: absolute;
+  top: 100px;
+  left: 152px;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-yellowgreen);
+  width: 1162px;
+  height: 160px;
+}
+.next2,
+.option31,
+.previous1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-salmon);
+  top: 590px;
+  left: 235px;
+  width: 363px;
+  height: 205px;
+}
+.next2,
+.previous1 {
+  background-color: var(--color-green);
+  top: 873px;
+  left: 1209px;
+  border-radius: var(--br-20xl);
+  width: 178px;
+  height: 78px;
+}
+.previous1 {
+  left: 53px;
+}
+.who-can-you {
+  position: absolute;
+  top: 131px;
+  left: 202px;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1062px;
+  height: 98px;
+}
+.a-stranger {
+  top: 360px;
+  left: 260px;
+  height: 98px;
+}
+.a-stranger,
+.next3,
+.no-one,
+.parents1,
+.prev1,
+.your-teddy-bear {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 319px;
+}
+.parents1 {
+  top: 360px;
+  left: 890px;
+  height: 98px;
+}
+.next3,
+.no-one,
+.prev1,
+.your-teddy-bear {
+  top: 863px;
+  height: 88px;
+}
+.next3 {
+  left: 1139px;
+  cursor: pointer;
+  background-color: green;
+  border-radius: 40px;
+  color:white;
+  font-size: 45px;
+  font-family: 'Pacifico', cursive;
+}
+.no-one,
+.prev1,
+.your-teddy-bear {
+  left: -21px;
+}
+.no-one,
+.your-teddy-bear {
+  top: 644px;
+  left: 890px;
+  height: 98px;
+}
+.your-teddy-bear {
+  top: 643px;
+  left: 257px;
+}
+.q2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-41xl);
+  color: var(--color-white);
+  font-family: var(--font-love-ya-like-a-sister);
+}
+.prev1{
+  background-color: green;
+  border-radius: 40px;
+  color:white;
+  font-size: 45px;
+  font-family: 'Pacifico', cursive;
+}

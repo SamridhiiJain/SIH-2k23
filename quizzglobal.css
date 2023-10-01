@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-love-ya-like-a-sister: "Love Ya Like A Sister";
+
+  /* font sizes */
+  --font-size-41xl: 60px;
+  --font-size-29xl: 48px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-green: #159b1a;
+  --color-salmon: #f25f5f;
+  --color-yellowgreen: #cae560;
+
+  /* Border radiuses */
+  --br-20xl: 39px;
+  --br-41xl: 60px;
+}

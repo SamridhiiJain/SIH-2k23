@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./quizzglobal.css" />
+    <link rel="stylesheet" href="./q3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Love Ya Like A Sister:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="q3">
+      <button class="option-43" id="option4"></button>
+      <button class="option-23"></button>
+      <button class="option13"></button>
+      <div class="question3"></div>
+      <button class="option33"></button>
+      <button class="next6"></button>
+      <button class="previous3" id="previous"></button>
+      <div class="which-of-the">
+        Which of the following is NOT a Good Touch?
+      </div>
+      <div class="a-high-five">A high five</div>
+      <div class="a-hug">A hug</div>
+      <div><a href="q4.html"><button class="next7" id = "nextText">next</button></a></div>
+      <div><a href="q2.html"><button class="prev3" id = "prevText">prev</button></a></div>
+      <div class="touching-your-private">touching your private parts</div>
+      <div class="a-handshake">A handshake</div>
+    </div>
+
+    <script>
+      var option4 = document.getElementById("option4");
+      if (option4) {
+        option4.addEventListener("click", function (e) {
+          window.location.href = "./q4.html";
+        });
+      }
+      
+      var previous = document.getElementById("prevText");
+      if (previous) {
+        previous.addEventListener("click", function (e) {
+          window.location.href = "./q2.html";
+        });
+      }
+      
+      var nextText = document.getElementById("nextText");
+      if (nextText) {
+        nextText.addEventListener("click", function (e) {
+          window.location.href = "./q4.html";
+        });
+      }
+
+  
+     
+      </script>
+  </body>
+</html>
